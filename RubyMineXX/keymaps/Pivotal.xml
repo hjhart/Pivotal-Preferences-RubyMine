@@ -43,6 +43,7 @@
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="alt A" />
@@ -85,6 +86,9 @@
     <keyboard-shortcut first-keystroke="shift meta alt F8" />
     <keyboard-shortcut first-keystroke="shift control F9" />
   </action>
+  <action id="EditMacros">
+    <keyboard-shortcut first-keystroke="shift control meta 2" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
   </action>
@@ -105,6 +109,7 @@
   </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="DELETE" />
+    <keyboard-shortcut first-keystroke="control D" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta Y" />
@@ -125,32 +130,22 @@
     <keyboard-shortcut first-keystroke="meta LEFT" />
     <keyboard-shortcut first-keystroke="control A" />
   </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
-    <keyboard-shortcut first-keystroke="control RIGHT" />
+  <action id="EditorMoveDownAndScroll">
+    <keyboard-shortcut first-keystroke="control DOWN" />
+  </action>
+  <action id="EditorMoveUpAndScroll">
+    <keyboard-shortcut first-keystroke="control UP" />
   </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt RIGHT" />
     <keyboard-shortcut first-keystroke="shift control RIGHT" />
   </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="alt LEFT" />
-    <keyboard-shortcut first-keystroke="control LEFT" />
-  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt LEFT" />
     <keyboard-shortcut first-keystroke="shift control LEFT" />
   </action>
-  <action id="EditorScrollDown">
-    <keyboard-shortcut first-keystroke="control DOWN" />
-  </action>
-  <action id="EditorScrollUp">
-    <keyboard-shortcut first-keystroke="control UP" />
-  </action>
-  <action id="EditorStartNewLine">
-    <keyboard-shortcut first-keystroke="shift ENTER" />
-    <keyboard-shortcut first-keystroke="meta ENTER" />
-  </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta END" />
     <keyboard-shortcut first-keystroke="meta DOWN" />
@@ -191,10 +186,12 @@
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="control ENTER" />
   </action>
+  <action id="GotoBookmark2" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta B" />
@@ -205,7 +202,6 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift control N" />
     <keyboard-shortcut first-keystroke="shift meta N" />
-    <keyboard-shortcut first-keystroke="shift meta O" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta L" />
@@ -215,17 +211,6 @@
     <keyboard-shortcut first-keystroke="shift meta alt N" />
     <keyboard-shortcut first-keystroke="control N" />
   </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt F11" />
-    <keyboard-shortcut first-keystroke="shift meta F12" />
-  </action>
-  <action id="HippieCompletion">
-    <keyboard-shortcut first-keystroke="alt SLASH" />
-    <keyboard-shortcut first-keystroke="alt SPACE" />
-  </action>
-  <action id="Macro.run whole test file">
-    <keyboard-shortcut first-keystroke="control meta alt F8" />
-  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="alt DOWN" />
   </action>
@@ -234,8 +219,8 @@
     <keyboard-shortcut first-keystroke="alt UP" />
   </action>
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="shift control meta alt RIGHT" />
-    <keyboard-shortcut first-keystroke="shift control meta alt LEFT" />
+    <keyboard-shortcut first-keystroke="control meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta alt LEFT" />
   </action>
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift control DOWN" />
@@ -252,12 +237,12 @@
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="control TAB" />
     <keyboard-shortcut first-keystroke="control meta alt TAB" />
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="control LEFT" />
   </action>
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
-    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+  <action id="OpenDirectoryProject">
+    <keyboard-shortcut first-keystroke="shift meta O" />
   </action>
-  <action id="OpenDirectoryProject" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="meta O" />
   </action>
@@ -267,17 +252,15 @@
     <keyboard-shortcut first-keystroke="shift meta V" />
     <keyboard-shortcut first-keystroke="shift control V" />
   </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="control 2" />
+  </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift control TAB" />
     <keyboard-shortcut first-keystroke="shift control meta alt TAB" />
   </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
-    <keyboard-shortcut first-keystroke="meta alt LEFT" />
-  </action>
-  <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift meta alt T" />
-    <keyboard-shortcut first-keystroke="control T" />
+  <action id="QuickList.Jay's Magic Fingers">
+    <keyboard-shortcut first-keystroke="shift meta J" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt L" />
@@ -304,10 +287,13 @@
     <keyboard-shortcut first-keystroke="shift control F10" />
   </action>
   <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="shift control meta alt DOWN" />
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="shift control meta alt UP" />
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
+  </action>
+  <action id="StartStopMacroRecording">
+    <keyboard-shortcut first-keystroke="control meta 2" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="alt F9" />
@@ -341,16 +327,14 @@
     <keyboard-shortcut first-keystroke="meta E" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.RefreshStatuses">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="control meta alt H" />
   </action>
   <action id="WelcomeScreen.ReopenRecent">
     <keyboard-shortcut first-keystroke="meta alt O" />
-  </action>
-  <action id="rake:spec">
-    <keyboard-shortcut first-keystroke="meta F10" />
-    <keyboard-shortcut first-keystroke="shift control meta F8" />
-    <keyboard-shortcut first-keystroke="control F10" />
   </action>
 </keymap>
 
