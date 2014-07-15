@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="sprout-wrap" values="Git" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="sprout-wrap" values="plain ruby" />
+    </group>
+    <group name="module type">
+      <project id="sprout-wrap" values="RUBY_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="sprout-wrap" values="UNKNOWN,YAML,Ruby,plist,Markdown,XML,RHTML,PLAIN_TEXT,JSON" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="sprout-wrap" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="sprout-wrap" values="Project,Project" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="sprout-wrap" values="net-ssh-gateway,ohai,highline,mixlib-authentication,rest-client,mixlib-log,minitar,hashie,thor,systemu,soloist,bundler,mixlib-shellout,mixlib-config,plist,net-ssh-multi,librarian,ipaddress,mime-types,librarian-chef,net-ssh,chef,yajl-ruby,mixlib-cli,awesome_print,erubis,json" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="sprout-wrap" values="rbenv  2.1.0" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ideaapp.started" count="2" />
+    </counts>
+  </component>
+</application>
+
